@@ -1,0 +1,1 @@
+# openvino-mini-project_bird-detection
