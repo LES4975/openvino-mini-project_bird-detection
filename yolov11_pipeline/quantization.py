@@ -23,7 +23,7 @@ def quantize_model(model_name, det_model_path, det_model, label_map, output_dir=
         output_dir = Path(output_dir)
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    int8_model_path = output_dir / f"{model_name}.xml"
+    int8_model_path = output_dir / f"{model_name}_quant.xml"
 
     # 2. 기존 모델 존재 시 반환
     if int8_model_path.exists():
@@ -34,7 +34,8 @@ def quantize_model(model_name, det_model_path, det_model, label_map, output_dir=
     LABELS_URL = "https://github.com/ultralytics/yolov5/releases/download/v1.0/coco2017labels-segments.zip"
     CFG_URL = "https://raw.githubusercontent.com/ultralytics/ultralytics/v8.1.0/ultralytics/cfg/datasets/coco.yaml"
 
-    OUT_DIR = DATASETS_DIR
+    # OUT_DIR = DATASETS_DIR
+    OUT_DIR = Path("./data")
     DATA_PATH = OUT_DIR / "val2017.zip"
     LABELS_PATH = OUT_DIR / "coco2017labels-segments.zip"
     CFG_PATH = OUT_DIR / "coco.yaml"

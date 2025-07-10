@@ -34,4 +34,7 @@ class YOLOv11Pipeline:
             self.label_map
         )
 
+        # 5. 양자화 추가 진행
+        
+
         print("Pipeline complete.")
