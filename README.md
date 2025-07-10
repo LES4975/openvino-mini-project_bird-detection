@@ -75,6 +75,8 @@ openvino-mini-project_bird-detection/
 2. 터미널에서 경로를 clone한 프로젝트 디렉토리로 설정하고, 아래 명령어를 실행합니다.
     
     ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
     pip install -r requirements.txt
     python app.py
     ```
