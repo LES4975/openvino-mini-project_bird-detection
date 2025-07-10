@@ -1,1 +1,11 @@
-# openvino-mini-project_bird-detection
+# 미니 프로젝트
+
+날짜: 2025년 7월 10일
+
+# README.md 작성하기
+
+readme.입니다.
+
+---
+
+# 제목ㅔ목
