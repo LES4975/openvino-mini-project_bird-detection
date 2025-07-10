@@ -34,6 +34,7 @@
 openvino-mini-project_bird-detection/
 ├── bird_dataset/
 ├── bird_detect/
+│   ├── inference.py
 │   └── bird_fear.py
 ├── yolov11_pipeline/
 │   ├── __init__.py
