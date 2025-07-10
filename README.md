@@ -49,7 +49,7 @@ openvino-mini-project_bird-detection/
 └── requirements.txt
 ```
 
-## 기능
+## 구성
 
 본 프로젝트는 Gradio 앱으로 실행합니다.
 
